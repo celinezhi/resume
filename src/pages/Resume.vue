@@ -39,8 +39,22 @@ import Item from './components/Item.vue';
 const name = '李梓霖'
 const works = [
   {
+    title: 'Crypto.com (量化开发工程师-前端 / Dev Lead)',
+    date: ['2022.04'],
+    projects: [
+      {
+        title: '交易数据中台 - 项目Leader',
+        items: [
+          '背景: 为交易前台的交易员提供...',
+          '做了......',
+          'todo...'
+        ]
+      }
+    ]
+  },
+  {
     title: '腾讯 (前端工程师)',
-    date: ['2019年4月'],
+    date: ['2019.04', '2022.04'],
     projects: [
       {
         title: '腾讯视频媒资星海内容平台 - 项目前端负责人',
@@ -71,7 +85,7 @@ const works = [
   },
   {
     title: '深圳文思海辉信息技术有限公司（前端开发）',
-    date: ['2016年8月', '2019年4月'],
+    date: ['2016.08', '2019.04'],
     projects: [
       {
         title: '腾讯视频 - 媒资库系统',
@@ -84,7 +98,7 @@ const works = [
   },
   {
     title: '深圳市创尔时装有限公司（网络技术）',
-    date: ['2015年5月', '2016年7月'],
+    date: ['2015.05', '2016.07'],
     projects: [
       {
         items: [
@@ -95,7 +109,7 @@ const works = [
   },
   {
     title: '北京和堂文化有限责任公司（合伙人）',
-    date: ['2013年10月', '2015年5月'],
+    date: ['2013.10', '2015.05'],
     projects: [
       {
         items: [

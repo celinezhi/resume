@@ -1,6 +1,6 @@
 <template>
     <div class="justify-center my-5">
-      <div>{{ title }}</div>
+      <div><slot name="icon" />{{ title }}</div>
       <slot />
     </div>
 </template>

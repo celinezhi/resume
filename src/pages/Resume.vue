@@ -3,23 +3,26 @@
     <div class="text-center text-4xl my-5 font-bold">{{ name }}</div>
     
     <div class="flex justify-between my-5">
-      <div>Phone: (+86) 13592833907</div>
-      <div>Email: chyiqm@qq.com</div>
+      <div><IconPhone class="inline" />(+86) 13592833907</div>
+      <p><IconEmail class="inline"/>chyiqm@qq.com</p>
     </div>
 
     <Area title="个人介绍">
+      <template #icon><IconMe class="inline" /></template>
       <Block>
         <Item v-for="i, idx in basics" :key="`basic_${idx}`" :content="i" />
       </Block>
     </Area>
 
     <Area title="工作经历">
+      <template #icon><IconTeam class="inline" /></template>
       <div class="space-y-5">
         <Work v-for="work, idx in works" :key="`work_${idx}`" v-bind="work" />
       </div>
     </Area>
 
     <Area title="教育背景">
+      <template #icon><IconSchool class="inline" /></template>
       <Block>
         <div class="flex flex-row justify-between">
           <span><span class="font-bold">北京理工大学珠海学院</span> - 信息工程</span>
@@ -31,10 +34,15 @@
 </template>
 
 <script setup lang="ts">
-import Area from './components/Area.vue';
-import Block from './components/Block.vue';
-import Work from './components/Work.vue';
-import Item from './components/Item.vue';
+import Area from './components/Area.vue'
+import Block from './components/Block.vue'
+import Work from './components/Work.vue'
+import Item from './components/Item.vue'
+import IconEmail from '~icons/mdi/email'
+import IconPhone from '~icons/mdi/phone'
+import IconSchool from '~icons/mdi/school'
+import IconTeam from '~icons/mdi/account-group'
+import IconMe from '~icons/mdi/account'
 
 const name = '李梓霖'
 const works = [

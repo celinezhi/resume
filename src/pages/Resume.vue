@@ -1,10 +1,11 @@
 <template>
   <div class="container mx-auto p-5 flex flex-col">
-    <div class="text-center text-4xl my-5 font-bold">{{ name }}</div>
+    <div class="text-center text-5xl my-5 font-bold">{{ name }}</div>
     
     <div class="flex justify-between my-5">
       <div><IconPhone class="inline" />(+86) 13592833907</div>
       <p><IconEmail class="inline"/>chyiqm@qq.com</p>
+      <p><IconLocation class="inline"/>中国-深圳</p>
     </div>
 
     <Area title="个人介绍">
@@ -43,6 +44,7 @@ import IconPhone from '~icons/mdi/phone'
 import IconSchool from '~icons/mdi/school'
 import IconTeam from '~icons/mdi/account-group'
 import IconMe from '~icons/mdi/account'
+import IconLocation from '~icons/mdi/map-marker'
 
 const name = '李梓霖'
 const works = [

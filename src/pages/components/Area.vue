@@ -1,6 +1,6 @@
 <template>
-    <div class="justify-center my-5">
-      <div class="text-xl flex items-center mb-1"><slot name="icon" />{{ title }}</div>
+    <div class="justify-center my-1">
+      <div class="text-lg flex items-center mb-1 space-x-1"><slot name="icon" /><span>{{ title }}</span></div>
       <slot />
     </div>
 </template>

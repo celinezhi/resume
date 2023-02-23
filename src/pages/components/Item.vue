@@ -1,5 +1,5 @@
 <template>
-    <p>• {{ content }}</p>
+    <p class="text-sm">• {{ content }}</p>
 </template>
 
 <script setup lang="ts">

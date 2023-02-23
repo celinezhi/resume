@@ -1,10 +1,10 @@
 <template>
   <Block>
-    <div class="flex justify-between font-bold text-xl">
+    <div class="flex justify-between font-bold">
       <div>{{ title }}</div>
       <div>{{ dateText }}</div>
     </div>
-    <div v-for="{ title, items }, idx in projects" :key="idx" class="border-t-2 my-2 pt-2">
+    <div v-for="{ title, items }, idx in projects" :key="idx" class="border-t-2 my-1 pt-1 text-sm">
         <p v-if="title" class="font-bold">{{ title }}</p>
         <Item v-for="item, iidx in items" :key="`${idx}_${iidx}`" :content="item" />
     </div>

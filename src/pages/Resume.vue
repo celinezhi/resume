@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto p-5 flex flex-col">
     <!-- 人名 -->
-    <div class="text-center text-3xl font-bold my-2">{{ name }}</div>
+    <div class="text-center text-2xl font-bold my-2">{{ name }}</div>
     <!-- 联系信息 -->
     <div class="flex justify-between">
       <div><IconPhone class="inline" />{{ phoneNumber }}</div>
@@ -51,7 +51,7 @@ import IconTeam from '~icons/mdi/account-group'
 import IconMe from '~icons/mdi/account'
 import IconLocation from '~icons/mdi/map-marker'
 
-const name = '傅智'
+const name = '傅智(celinefu)'
 const phoneNumber = '(+86)18682108301'
 const emailAddress = 'fuzhi0711@126.com'
 const location = '中国-深圳'
@@ -60,7 +60,6 @@ const basics = [
   '丰富的Web全栈开发经验，常用技术栈: Vue2/3, ElementUI, AntD, Node.js, Koa, Egg.js，有React, Typescript项目经验',
   '有管理后台微前端项目、低代码项目、国际化项目、Node BFF的开发经验。',
   '熟练使用前端工程的构建、打包、部署等工具。对后端开发语言、网络、devops有基础了解。',
-  '熟练阅读英，法文档。'
 ]
 const works = [
   {
@@ -72,7 +71,7 @@ const works = [
         items: [
           '业务背景: 为新业务（乐学小鹅app）打造全新B侧配置系统。提供完整的开课路径，实现内容的创建和配置以及课程的编排。',
           '参与B侧系统的规划, 作为需求Owner协调团队及资源，把控需求开发流程。',
-          '参与系统方案设计及开发，项目采用微前端+低代码解决方案。'
+          '参与系统方案设计及开发，项目采用微前端+低代码解决方案。',
           '负责部门全栈APM能力调研和规划，落地全链路监控工具，支持一键查看全链路请求视图，降低问题排查成本。',
         ]
       },
@@ -80,7 +79,6 @@ const works = [
         title: '腾讯视频媒资星海内容平台 - 项目前端负责人',
         items: [
           '业务背景: 星海系列平台承载腾讯视频的内容加工与运营，是连通内容生产和分发的重要环节。前端团队涉及近30多个系统的开发和维护。',
-          '负责前端需求沟通，积极推动方案落地及跟进项目进度。',
           '主导前端服务化改造，完成星海由纯页面服务（Jquery）到 Vue + EggJS 的Node服务化改造。搭建Node接入层，解耦前后端依赖。实现多协议互通，多实体数据组装，面向界面需求进行数据处理。同时协议转换层支持配置化访问不同协议接口，大大减少开发成本。',
           '负责前端工程化推动。开发和维护项目脚手架、组件库，优化开发效率。同时推进代码Code Review流程和项目CICD。',
           '推动前端可靠性建设，完善页面和Node层的监控（emonitor)、日志(atta)和告警。参与emonitor监控项目共建，设计和实现Jsonp请求监控。'
@@ -92,7 +90,7 @@ const works = [
           '业务背景: 为解决现有前端应用场景国际化相关问题，统一公司内国际化接入流程。搭建多语言协作平台和工具链。',
           '负责SDK整体规划、开发和项目流程控制，以及Oteam宣传，影响力建设。同时主要负责国际化Vue框架SDK和编译时SDK解决方案。',
           '负责设计和开发I18N代码编译Core。通过编译时对代码AST的处理，完成代码中词条的自动提取，自动翻译等功能。当前已支持React，Html，Vue等语言和框架的代码处理。同时通过插件生态，支持其他语言处理拓展。以编译Core为处理核心，已开发Webpack, CLI等自动化工具。',
-          '目前平台侧近300个项目接入'
+          // '目前平台侧近300个项目接入'
         ],
       }
     ],
